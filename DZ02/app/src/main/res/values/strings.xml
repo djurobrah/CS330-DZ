@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Student2</string>
+    <string name="pick_any_text">Pick any of the options below.</string>
+    <string name="open_website_text">Open the Metropolitan University website.</string>
+    <string name="open_map_text">Find Metropolitan on Google Maps.</string>
+    <string name="call_number_text">Call the Metropolitan University.</string>
+    <string name="cancel">Cancel</string>
+    <string name="open">Open</string>
+</resources>
