@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:key="ps1">
+
+    <PreferenceCategory android:title="Test">
+        <ListPreference
+            android:defaultValue="1"
+            android:entries="@array/odgovori"
+            android:entryValues="@array/odgovori"
+            android:key="list_preference"
+            android:title="Kako je urađen ovaj domaći?" />
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="Univerzitet info">
+        <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+            android:persistent="false"
+            android:title="Drugi ekran preferenci..."
+            android:key="ps2">
+            <EditTextPreference
+                android:name="EditText1"
+                android:summary="Naziv fakulteta"
+                android:title="Unesite naziv fakulteta"
+                android:key="et1" />
+            <EditTextPreference
+                android:name="EditText2"
+                android:summary="Adresa fakulteta"
+                android:title="Unesite adresu fakulteta"
+                android:key="et2" />
+            <Preference
+                android:key="datePicker"
+                android:summary="DatePicker"
+                android:title="Izaberite datum" />
+            <Preference
+                android:key="timePicker"
+                android:summary="TimePicker"
+                android:title="Izaberite vreme" />
+        </PreferenceScreen>
+    </PreferenceCategory>
+
+</PreferenceScreen>
+

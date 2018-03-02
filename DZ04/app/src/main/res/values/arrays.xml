@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="odgovori">
+        <item name="odg1">@string/uradjen_lose</item>
+        <item name="odg2">@string/uradjen_najbolje</item>
+        <item name="odg3">@string/uradjen_ok</item>
+    </string-array>
+
+</resources>

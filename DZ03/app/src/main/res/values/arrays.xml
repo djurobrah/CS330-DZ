@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="fit_predmeti">
+        <item>CS330</item>
+        <item>CS101</item>
+        <item>CS102</item>
+        <item>CS103</item>
+    </string-array>
+    <string-array name="fzm_predmeti">
+        <item>MK150</item>
+        <item>IS205</item>
+        <item>OM100</item>
+        <item>MG150</item>
+    </string-array>
+    <string-array name="fdu_predmeti">
+        <item>AD101</item>
+        <item>AD102</item>
+        <item>AD110</item>
+        <item>AD125</item>
+    </string-array>
+</resources>

@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Student4</string>
+    <string name="uradjen_lose">Ovaj domaći je loše urađen</string>
+    <string name="uradjen_najbolje">Ovo je najbolji domaći</string>
+    <string name="uradjen_ok">Ovo je ok domaći</string>
+</resources>
