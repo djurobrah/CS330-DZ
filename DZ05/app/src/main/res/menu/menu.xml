@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nextButton"
+        android:title="Sledeće"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/uniBtn"
+        android:title="Univerzitet"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/fitBtn"
+        android:title="FIT"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/famBtn"
+        android:title="FAM"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/fduBtn"
+        android:title="FDU"
+        app:showAsAction="never" />
+</menu>

@@ -2,3 +2,4 @@ DZ01
 DZ02 - Intents, dialogs
 DZ03 - Orientation, ActionBar, ListView, ParentActivity
 DZ04 - Preference, Date/TimePicker(Dialog), PreferenceListeners
+DZ05 - Menu, Clocks, WebWiew, ContextMenu
