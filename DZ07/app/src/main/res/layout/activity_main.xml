@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="metropolitan.com.student7.MainActivity">
+
+    <TextView
+        android:id="@+id/nazivTV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Naziv predmeta:"
+        android:textAlignment="center"
+        android:textStyle="italic" />
+
+    <EditText
+        android:id="@+id/nazivET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/sifraTV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sifra predmeta:"
+        android:textAlignment="center"
+        android:textStyle="italic" />
+
+    <EditText
+        android:id="@+id/sifraET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/poeniTV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Broj poena:"
+        android:textAlignment="center"
+        android:textStyle="italic" />
+
+    <EditText
+        android:id="@+id/poeniET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number"
+        android:textAlignment="center" />
+
+    <Button
+        android:id="@+id/dodajBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="btnClick"
+        android:text="Dodaj predmet."
+        android:textAlignment="center" />
+
+    <LinearLayout
+        android:id="@+id/koloneL"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp">
+
+        <TextView
+            android:id="@+id/sifraKolTV"
+            android:layout_width="20dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:text="Sifra predmeta:"
+            android:textSize="14sp"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/nazivKolTV"
+            android:layout_width="60dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:text="Naziv predmeta:"
+            android:textSize="14sp"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/poeniKolTV"
+            android:layout_width="5dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:text="Broj poena:"
+            android:textAlignment="textEnd"
+            android:textSize="14sp"
+            android:textStyle="italic" />
+    </LinearLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clipChildren="false"
+        android:clipToPadding="false"
+        android:scrollbars="vertical"
+        tools:listitem="@layout/list_item">
+
+    </android.support.v7.widget.RecyclerView>
+</LinearLayout>
