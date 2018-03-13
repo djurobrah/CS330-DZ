@@ -5,3 +5,4 @@ DZ04 - Preference, Date/TimePicker(Dialog), PreferenceListeners
 DZ05 - Menu, Clocks, WebWiew, ContextMenu
 DZ06 - RecyclerView i onclick listeneri, SQLiteDatabase ( u lekciji upis/citanje fajlova)
 DZ07 - Custom provideri ( u lekciji i ugradjeni provideri )
+DZ08 - Email/Sms via intents, SmsManager, BroadcastReciever
