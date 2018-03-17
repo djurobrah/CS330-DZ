@@ -7,3 +7,4 @@ DZ06 - RecyclerView i onclick listeneri, SQLiteDatabase ( u lekciji upis/citanje
 DZ07 - Custom provideri ( u lekciji i ugradjeni provideri )
 DZ08 - Email/Sms via intents, SmsManager, BroadcastReciever
 DZ09 - PermissionManager, Mape
+DZ10 - Firebase, AsyncTasks, HTTP requests, ViewFlipper, Fragmenti, TimerTask (u lekciji socketi)

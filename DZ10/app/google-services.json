@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "63054975444",
+    "firebase_url": "https://cs330-dz10.firebaseio.com",
+    "project_id": "cs330-dz10",
+    "storage_bucket": "cs330-dz10.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:63054975444:android:4a849273206aea2b",
+        "android_client_info": {
+          "package_name": "metropolitan.com.student10"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "63054975444-crteoe33sif5vse4e433ehenl53bk1hl.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "metropolitan.com.student10",
+            "certificate_hash": "5106415705e82f94af8aca8cc589ad833004ada8"
+          }
+        },
+        {
+          "client_id": "63054975444-9h8v13mhoslr3p5q4ev3pugvnkcgiueo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyClV4KvhXZz1HXxJT-sstSoGPUUWDzffI4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "63054975444-9h8v13mhoslr3p5q4ev3pugvnkcgiueo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
