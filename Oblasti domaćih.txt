@@ -8,3 +8,8 @@ DZ07 - Custom provideri ( u lekciji i ugradjeni provideri )
 DZ08 - Email/Sms via intents, SmsManager, BroadcastReciever
 DZ09 - PermissionManager, Mape
 DZ10 - Firebase, AsyncTasks, HTTP requests, ViewFlipper, Fragmenti, TimerTask (u lekciji socketi)
+playBackground - background music service
+primerIspita - ikona (res->new->image asset), webView, permMan, ACTION_CALL,
+
+gradlew clean
+build-> generatesignedapk
